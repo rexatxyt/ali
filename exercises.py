@@ -60,7 +60,7 @@ for number in Num :
     print("#") """
     
 #--------------------------------------------------------------------------------------------------------------
-Name=input("enter True or False :")
+""" Name=input("enter True or False :")
 if Name.lower() == "true" :
     Name = True
 else :
@@ -70,7 +70,7 @@ if not Name :
     print("name is false")
 else :
     print("name is true")
-       
+        """
   
 #-----------------------------------------------------------------------------------------------------------------
 """ Email_Address=input(str("enter your email:"))
@@ -81,3 +81,26 @@ while Password != "txyt_@alit123" :
 print("password is correct") """
 
 #-----------------------------------------------------------------------------------------------------------------
+""" 
+    User_Age=int(input("enter your age : "))
+User_Gender=input(str("enter your gender :"))
+if User_Age >= 7 and User_Gender== "male" :
+    print("you can come to our pool park ")
+
+elif User_Age >= 7 and User_Gender== "female" :
+    print("  you can use this link to sign up to female pool park")
+    
+else:
+    print("you not able come to our pool park")"""
+    
+#-------------------------------------------------------------------------------------------------------------
+Limite=range(1,10)
+for i in Limite : 
+    print("*" * i)
+    for num in range(1,10) :
+        if num % 2 == 1:
+            for star in range (1,10):
+                print("*" * star)
+        else :
+            for star in range (11,0,-1) :
+                print("*" * star)
