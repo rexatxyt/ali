@@ -1,106 +1,108 @@
-""" print("wellcome to regestation of the website")
-Name=input(str("enter your first name:"))
-LastName=input(str("enter your last name:"))
-Phone=int(input("enter your phone number:"))
-Age=int(input("enter your age:"))
-Height=float(input("enter your height (in meter):"))
-Weight=float(input("enter your weight (in kg):"))
-print(f"your account successfully long in: \n {Name} and \n {LastName} and \n {Phone} and \n {Age} and \n {Height} and \n {Weight}") """
+""" print("wllcom to rgstation of th wbsit")
+Nam=input(str("ntr your first nam:"))
+LastNam=input(str("ntr your last nam:"))
+Phon=int(input("ntr your phon numbr:"))
+Ag=int(input("ntr your ag:"))
+Hight=float(input("ntr your hight (in mtr):"))
+Wight=float(input("ntr your wight (in kg):"))
+print(f"your account succssfully long in: \n {Nam} and \n {LastNam} and \n {Phon} and \n {Ag} and \n {Hight} and \n {Wight}") """
 
 #------------------------------------------------------------------------------------------------------- 
  
-""" print("you have to sing up first:")
-Name=input(str("enter your name:"))
-NickName=input(str("enter your nickname:"))
-Email=input(str("enter your email address:"))
-PassWord=input(str("enter your password:"))
-RepassWrod=input(str("enter your password again:"))
-Phone=int(input("enter yourphone number (optional):"))
-print(f"you are sign up to this website: \n {Name} and \n {NickName} and \n {Email} and \n {PassWord} and \n {RepassWrod} and \n {Phone}") """
+""" print("you hav to sing up first:")
+Nam=input(str("ntr your nam:"))
+NickNam=input(str("ntr your nicknam:"))
+mail=input(str("ntr your mail addrss:"))
+PassWord=input(str("ntr your password:"))
+RpassWrod=input(str("ntr your password again:"))
+Phon=int(input("ntr yourphon numbr (optional):"))
+print(f"you ar sign up to this wbsit: \n {Nam} and \n {NickNam} and \n {mail} and \n {PassWord} and \n {RpassWrod} and \n {Phon}") """
 
 #--------------------------------------------------------------------------------------------------------
-""" print("you can log in here:")
-Email=input(str("enter your email adderss:"))
-PassWord=input(str("enter your password:"))
-print(f"you are entered to your account! \n {Email} and \n {PassWord}")
+""" print("you can log in hr:")
+mail=input(str("ntr your mail addrss:"))
+PassWord=input(str("ntr your password:"))
+print(f"you ar ntrd to your account! \n {mail} and \n {PassWord}")
  """
 #---------------------------------------------------------------------------------------------------------
-""" age=int(input("enter your age:"))
+""" ag=int(input("ntr your ag:"))
 
-if age >18 :
-    print(f"your age is enough and kinda too late for licenes and you can sign up for it now")
+if ag >18 :
+    print(f"your ag is nough and kinda too lat for licns and you can sign up for it now")
 
-elif age == 18 :
-    print("Right now you can sign up for your licenes")
+lif ag == 18 :
+    print("Right now you can sign up for your licns")
     
-else :
-    print("your age is not enough for sign up to driving licenes") """
+ls :
+    print("your ag is not nough for sign up to driving licns") """
 
 #-----------------------------------------------------------------------------------------------------------
-""" User_Height=float(input("enter your height (with meter):"))
-User_Weight=int(input("enter your weight(with kg):"))
-if User_Height > 170 and User_Weight < 120 :
-    print(" you can be hired to our company")
+""" Usr_Hight=float(input("ntr your hight (with mtr):"))
+Usr_Wight=int(input("ntr your wight(with kg):"))
+if Usr_Hight > 170 and Usr_Wight < 120 :
+    print(" you can b hird to our company")
 
-else :
-    print("I am afraid you cannot hired to our company") """
+ls :
+    print("I am afraid you cannot hird to our company") """
 
 #-----------------------------------------------------------------------------------------------------------
-""" Travel=str(input("enter the place:"))
-if Travel=="north" or Travel=="Tabriz" :
-        print("its good idea to travel there")
+""" Travl=str(input("ntr th plac:"))
+if Travl=="north" or Travl=="Tabriz" :
+        print("its good ida to travl thr")
         
-else :
-    print("not very good idea to go there") """
+ls :
+    print("not vry good ida to go thr") """
     
 #------------------------------------------------------------------------------------------------------------
 """ Num=[100,200,300,400,500,666]
-for number in Num :
-    print(number)
+for numbr in Num :
+    print(numbr)
     print("#") """
     
 #--------------------------------------------------------------------------------------------------------------
-""" Name=input("enter True or False :")
-if Name.lower() == "true" :
-    Name = True
-else :
-    Name = False
+""" Nam=input("ntr Tru or Fals :")
+if Nam.lowr() == "tru" :
+    Nam = Tru
+ls :
+    Nam = Fals
     
-if not Name :
-    print("name is false")
-else :
-    print("name is true")
+if not Nam :
+    print("nam is fals")
+ls :
+    print("nam is tru")
         """
   
 #-----------------------------------------------------------------------------------------------------------------
-""" Email_Address=input(str("enter your email:"))
-Password=input(str("enter your password:"))
-while Password != "txyt_@alit123" :
+""" mail_Addrss=input(str("ntr your mail:"))
+Password=input(str("ntr your password:"))
+whil Password != "txyt_@alit123" :
     print("wrong password!")
-    Password=input(str("enter your password:"))
-print("password is correct") """
+    Password=input(str("ntr your password:"))
+print("password is corrct") """
 
 #-----------------------------------------------------------------------------------------------------------------
 """ 
-    User_Age=int(input("enter your age : "))
-User_Gender=input(str("enter your gender :"))
-if User_Age >= 7 and User_Gender== "male" :
-    print("you can come to our pool park ")
+    Usr_Ag=int(input("ntr your ag : "))
+Usr_Gndr=input(str("ntr your gndr :"))
+if Usr_Ag >= 7 and Usr_Gndr== "mal" :
+    print("you can com to our pool park ")
 
-elif User_Age >= 7 and User_Gender== "female" :
-    print("  you can use this link to sign up to female pool park")
+lif Usr_Ag >= 7 and Usr_Gndr== "fmal" :
+    print("  you can us this link to sign up to fmal pool park")
     
-else:
-    print("you not able come to our pool park")"""
+ls:
+    print("you not abl com to our pool park")"""
     
 #-------------------------------------------------------------------------------------------------------------
-Limite=range(1,10)
-for i in Limite : 
+""" Limit=rang(1,10)
+for i in Limit : 
     print("*" * i)
-    for num in range(1,10) :
+    for num in rang(1,10) :
         if num % 2 == 1:
-            for star in range (1,10):
+            for star in rang (1,10):
                 print("*" * star)
-        else :
-            for star in range (11,0,-1) :
-                print("*" * star)
+        ls :
+            for star in rang (11,0,-1) :
+                print("*" * star) """
+                
+#-------------------------------------------------------------------------------------------------------------
