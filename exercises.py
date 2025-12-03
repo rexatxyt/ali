@@ -87,22 +87,22 @@ Usr_Gndr=input(str("ntr your gndr :"))
 if Usr_Ag >= 7 and Usr_Gndr== "mal" :
     print("you can com to our pool park ")
 
-lif Usr_Ag >= 7 and Usr_Gndr== "fmal" :
+elif Usr_Ag >= 7 and Usr_Gndr== "fmal" :
     print("  you can us this link to sign up to fmal pool park")
     
-ls:
+else:
     print("you not abl com to our pool park")"""
     
 #-------------------------------------------------------------------------------------------------------------
-""" Limit=rang(1,10)
-for i in Limit : 
+""" Limite=range(1,10)
+for i in Limite : 
     print("*" * i)
-    for num in rang(1,10) :
+    for num in range(1,10) :
         if num % 2 == 1:
-            for star in rang (1,10):
+            for star in range (1,10):
                 print("*" * star)
-        ls :
-            for star in rang (11,0,-1) :
-                print("*" * star) """
+        else :
+            for star in range (11,0,-1) :
+                print("*" * star)  """
                 
 #-------------------------------------------------------------------------------------------------------------
